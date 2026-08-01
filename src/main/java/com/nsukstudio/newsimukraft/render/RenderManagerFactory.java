@@ -1,8 +1,6 @@
 package com.nsukstudio.newsimukraft.render;
 
 import com.nsukstudio.newsimukraft.api.render.IRenderManager;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 
 /**
  * 渲染管理器工厂 —— 根据当前渲染后端自动选择实现
@@ -11,12 +9,13 @@ import net.neoforged.api.distmarker.OnlyIn;
  *   客户端代码统一通过 RenderManagerFactory.get() 获取当前实例，
  *   不直接 new OpenGLRenderManager() 或 VulkanRenderManager()。
  *
+ * 注意：NeoForge 26.2 的 @OnlyIn 已无运行时剥离效果，
+ *   此类仅应在客户端事件中调用（NewSimukraftClient），服务端不会触碰此类。
+ *
  * 后端切换逻辑：
- *   检查系统属性 "sodium.vulkan" 或环境变量 VULKAN_ENABLED 判断。
- *   若检测到 Vulkan 支持，返回 VulkanRenderManager，否则 OpenGLRenderManager。
- *   这保证后端可在不修改业务代码的情况下切换（开闭原则）。
+ *   检查系统属性 "sodium.vulkan" 或环境变量 NSUK_VULKAN 判断。
+ *   若检测到 Vulkan，返回 VulkanRenderManager，否则 OpenGLRenderManager。
  */
-@OnlyIn(Dist.CLIENT)
 public final class RenderManagerFactory {
 
     private static volatile IRenderManager instance;

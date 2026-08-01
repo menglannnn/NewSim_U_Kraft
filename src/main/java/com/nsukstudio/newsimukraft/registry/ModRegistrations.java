@@ -26,12 +26,16 @@ public final class ModRegistrations {
         // 音效注册
         ModSoundEvents.register(modEventBus);
 
+        // 方块注册
+        ModBlocks.register(modEventBus);
+
+        // 物品注册（BlockItem 等）
+        ModItems.register(modEventBus);
+
+        // 创造物品栏注册
+        ModCreativeTabs.register(modEventBus);
+
         // 网络数据包注册
         modEventBus.addListener(NetworkRegistry::onRegisterPayloads);
-
-        // 后续新增注册器在此接入：
-        // ModBlocks.BLOCKS.register(modEventBus);
-        // ModItems.ITEMS.register(modEventBus);
-        // ModEntityTypes.ENTITIES.register(modEventBus);
     }
 }

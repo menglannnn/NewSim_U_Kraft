@@ -1,5 +1,6 @@
 {
   "itemGroup.newsimukraft": "Example Mod Tab",
+  "itemGroup.newsimukraft.main": "NewSimukraft",
   "block.newsimukraft.example_block": "Example Block",
   "item.newsimukraft.example_item": "Example Item",
 
@@ -9,5 +10,7 @@
   "newsimukraft.configuration.items": "Item List",
   "newsimukraft.configuration.logDirtBlock": "Log Dirt Block",
   "newsimukraft.configuration.magicNumberIntroduction": "Magic Number Text",
-  "newsimukraft.configuration.magicNumber": "Magic Number"
+  "newsimukraft.configuration.magicNumber": "Magic Number",
+
+  "block.newsimukraft.build_box": "Sim-U Build Box"
 }

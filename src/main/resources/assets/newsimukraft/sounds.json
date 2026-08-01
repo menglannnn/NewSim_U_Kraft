@@ -1,30 +1,42 @@
 {
-  "newsimukraft:build": {
+  "build": {
     "category": "blocks",
     "sounds": [{"name": "newsimukraft:build", "volume": 1.0, "pitch": 1.0}]
   },
-  "newsimukraft:demolish": {
+  "demolish": {
     "category": "blocks",
     "sounds": [{"name": "newsimukraft:demolish", "volume": 1.0, "pitch": 0.9}]
   },
-  "newsimukraft:upgrade": {
+  "upgrade": {
     "category": "blocks",
     "sounds": [{"name": "newsimukraft:upgrade", "volume": 1.0, "pitch": 1.2}]
   },
-  "newsimukraft:npc_resident": {
+  "npc_resident": {
     "category": "neutral",
     "sounds": [{"name": "newsimukraft:npc_resident", "volume": 0.6, "pitch": 1.0}]
   },
-  "newsimukraft:npc_merchant": {
+  "npc_merchant": {
     "category": "neutral",
     "sounds": [{"name": "newsimukraft:npc_merchant", "volume": 0.6, "pitch": 1.1}]
   },
-  "newsimukraft:npc_worker": {
+  "npc_worker": {
     "category": "neutral",
     "sounds": [{"name": "newsimukraft:npc_worker", "volume": 0.6, "pitch": 0.9}]
   },
-  "newsimukraft:ambient_factory": {
+  "ambient_factory": {
     "category": "ambient",
     "sounds": [{"name": "newsimukraft:ambient_factory", "volume": 0.4, "pitch": 1.0, "stream": true}]
+  },
+  "block.build_box.place": {
+    "category": "blocks",
+    "sounds": [{"name": "newsimukraft:block/build_box_place", "volume": 1.0, "pitch": 1.0}]
+  },
+  "block.build_box.break": {
+    "category": "blocks",
+    "sounds": [{"name": "newsimukraft:block/build_box_break", "volume": 1.0, "pitch": 1.0}]
+  },
+  "ui.build_box.open": {
+    "category": "blocks",
+    "sounds": [{"name": "newsimukraft:ui/build_box_open", "volume": 1.0, "pitch": 1.0}]
   }
 }

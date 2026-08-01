@@ -52,6 +52,18 @@ public final class ModSoundEvents {
     public static final DeferredHolder<SoundEvent, SoundEvent> AMBIENT_FACTORY =
             register("ambient_factory");
 
+    /** 建筑盒放置音效 */
+    public static final DeferredHolder<SoundEvent, SoundEvent> BUILD_BOX_PLACE =
+            register("block.build_box.place");
+
+    /** 建筑盒破坏音效 */
+    public static final DeferredHolder<SoundEvent, SoundEvent> BUILD_BOX_BREAK =
+            register("block.build_box.break");
+
+    /** 建筑盒右击打开 UI 音效 */
+    public static final DeferredHolder<SoundEvent, SoundEvent> BUILD_BOX_OPEN =
+            register("ui.build_box.open");
+
     private static DeferredHolder<SoundEvent, SoundEvent> register(String name) {
         Identifier id = Identifier.fromNamespaceAndPath(NewSimukraft.MODID, name);
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));

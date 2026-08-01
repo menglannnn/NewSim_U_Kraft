@@ -1,0 +1,35 @@
+﻿
+NewSimukraft 模组框架结构说明
+Minecraft 26.2 / NeoForge 26.2.x
+mod_id: newsimukraft
+
+com.nsukstudio.newsimukraft
+│
+├── api/                    ← 所有公开接口层（附属模组开发入口）
+│   ├── core/               - 城市核心接口
+│   ├── building/           - 建筑接口
+│   ├── economy/            - 经济接口
+│   ├── npc/                - NPC 接口
+│   ├── database/           - 数据库接口
+│   ├── render/             - 渲染接口
+│   ├── sound/              - 音效接口
+│   └── registry/           - 类型注册接口与定义
+│
+├── city/                   ← 城市核心模块实现
+├── building/               ← 建造模块实现
+│   ├── commercial/         - 商业建筑
+│   ├── industrial/         - 工业建筑
+│   └── residential/        - 住宅建筑
+├── economy/                ← 经济模块实现
+├── npc/                    ← NPC 模块实现
+├── database/               ← 数据库模块实现（SQLite）
+├── render/                 ← 渲染模块实现（OpenGL/Vulkan）
+├── sound/                  ← 音效模块实现
+├── network/                ← 网络数据包
+├── registry/               ← NeoForge 注册管理
+├── config/                 ← 配置文件
+│
+├── NewSimukraft.java       ← 模组主入口（服务端生命周期）
+├── NewSimukraftClient.java ← 客户端入口（渲染/配置界面）
+├── ModuleHolder.java       ← 全局模块访问器（静态单例容器）
+└── Config.java             ← 旧配置占位（未使用）

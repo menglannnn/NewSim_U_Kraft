@@ -1,0 +1,30 @@
+{
+  "newsimukraft:build": {
+    "category": "blocks",
+    "sounds": [{"name": "newsimukraft:build", "volume": 1.0, "pitch": 1.0}]
+  },
+  "newsimukraft:demolish": {
+    "category": "blocks",
+    "sounds": [{"name": "newsimukraft:demolish", "volume": 1.0, "pitch": 0.9}]
+  },
+  "newsimukraft:upgrade": {
+    "category": "blocks",
+    "sounds": [{"name": "newsimukraft:upgrade", "volume": 1.0, "pitch": 1.2}]
+  },
+  "newsimukraft:npc_resident": {
+    "category": "neutral",
+    "sounds": [{"name": "newsimukraft:npc_resident", "volume": 0.6, "pitch": 1.0}]
+  },
+  "newsimukraft:npc_merchant": {
+    "category": "neutral",
+    "sounds": [{"name": "newsimukraft:npc_merchant", "volume": 0.6, "pitch": 1.1}]
+  },
+  "newsimukraft:npc_worker": {
+    "category": "neutral",
+    "sounds": [{"name": "newsimukraft:npc_worker", "volume": 0.6, "pitch": 0.9}]
+  },
+  "newsimukraft:ambient_factory": {
+    "category": "ambient",
+    "sounds": [{"name": "newsimukraft:ambient_factory", "volume": 0.4, "pitch": 1.0, "stream": true}]
+  }
+}

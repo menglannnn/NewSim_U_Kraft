@@ -1,0 +1,13 @@
+{
+  "itemGroup.newsimukraft": "Example Mod Tab",
+  "block.newsimukraft.example_block": "Example Block",
+  "item.newsimukraft.example_item": "Example Item",
+
+  "newsimukraft.configuration.title": "NewSimukraft Configs",
+  "newsimukraft.configuration.section.newsimukraft.common.toml": "NewSimukraft Configs",
+  "newsimukraft.configuration.section.newsimukraft.common.toml.title": "NewSimukraft Configs",
+  "newsimukraft.configuration.items": "Item List",
+  "newsimukraft.configuration.logDirtBlock": "Log Dirt Block",
+  "newsimukraft.configuration.magicNumberIntroduction": "Magic Number Text",
+  "newsimukraft.configuration.magicNumber": "Magic Number"
+}

@@ -1,0 +1,36 @@
+{
+  "itemGroup.newsimukraft": "新模拟都市",
+
+  "newsimukraft.configuration.title": "NewSimukraft 配置",
+  "newsimukraft.configuration.section.newsimukraft.common.toml": "服务端配置",
+  "newsimukraft.configuration.section.newsimukraft.client.toml": "客户端配置",
+
+  "newsimukraft.config.city.plotSize": "地块边长",
+  "newsimukraft.config.city.maxBuildingsPerCity": "城市最大建筑数",
+  "newsimukraft.config.economy.startingBalance": "初始资金",
+  "newsimukraft.config.economy.taxCycleTicks": "税收周期（Ticks）",
+  "newsimukraft.config.npc.maxNpcPerCity": "城市NPC上限",
+  "newsimukraft.config.environment.pollutionDecayRate": "污染衰减率",
+  "newsimukraft.config.client.showBuildPreview": "显示建造预览",
+  "newsimukraft.config.client.enableAmbientSound": "启用建筑环境音",
+  "newsimukraft.config.client.uiScale": "城市HUD缩放比例",
+
+  "newsimukraft.npc.type.resident": "居民",
+  "newsimukraft.npc.type.merchant": "商贩",
+  "newsimukraft.npc.type.worker": "工人",
+
+  "newsimukraft.building.type.shop_level1": "商铺",
+  "newsimukraft.building.type.factory_level1": "工厂",
+  "newsimukraft.building.type.house_level1": "住宅",
+
+  "newsimukraft.hud.population": "人口",
+  "newsimukraft.hud.balance": "余额",
+  "newsimukraft.hud.economic_health": "经济健康度",
+
+  "newsimukraft.message.city_created": "城市建立成功！",
+  "newsimukraft.message.build_success": "建筑建造成功",
+  "newsimukraft.message.build_failed_collision": "此处已有建筑，无法放置",
+  "newsimukraft.message.build_failed_balance": "资金不足，无法建造",
+  "newsimukraft.message.build_failed_limit": "城市建筑已达上限",
+  "newsimukraft.message.upgrade_max_level": "已达最高等级"
+}

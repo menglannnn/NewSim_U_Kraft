@@ -1,5 +1,9 @@
 package com.nsukstudio.newsimukraft;
 
+import com.nsukstudio.newsimukraft.client.model.FloatingBuildBoxModel;
+import com.nsukstudio.newsimukraft.client.model.ModModelLayers;
+import com.nsukstudio.newsimukraft.client.renderer.FloatingBuildBoxRenderer;
+import com.nsukstudio.newsimukraft.registry.ModEntities;
 import com.nsukstudio.newsimukraft.render.RenderManagerFactory;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -7,6 +11,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
@@ -32,6 +37,20 @@ public class NewSimukraftClient {
     static void onClientSetup(FMLClientSetupEvent event) {
         // 预初始化渲染后端（触发后端检测和单例创建）
         NewSimukraft.LOGGER.info("[Client] 渲染后端: {}", RenderManagerFactory.get().getBackendName());
+    }
+
+    /** 注册自定义实体模型层 */
+    @SubscribeEvent
+    static void onRegisterLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        event.registerLayerDefinition(ModModelLayers.FLOATING_BUILD_BOX,
+                FloatingBuildBoxModel::createBodyLayer);
+    }
+
+    /** 注册自定义实体渲染器 */
+    @SubscribeEvent
+    static void onRegisterRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerEntityRenderer(ModEntities.FLOATING_BUILD_BOX.get(),
+                FloatingBuildBoxRenderer::new);
     }
 
     /**

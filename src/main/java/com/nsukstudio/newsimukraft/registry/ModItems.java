@@ -25,6 +25,10 @@ public final class ModItems {
     public static final DeferredItem<BlockItem> RESIDENTIAL_CONTROL_BOX =
             ITEMS.registerSimpleBlockItem("residential_control_box", ModBlocks.RESIDENTIAL_CONTROL_BOX);
 
+    /** 城市核心物品（对应 CITY_CORE 方块的 BlockItem） */
+    public static final DeferredItem<BlockItem> CITY_CORE =
+            ITEMS.registerSimpleBlockItem("city_core", ModBlocks.CITY_CORE);
+
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }

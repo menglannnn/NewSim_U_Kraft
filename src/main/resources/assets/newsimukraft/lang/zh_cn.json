@@ -1,11 +1,9 @@
 {
   "itemGroup.newsimukraft": "新：模拟大都市",
   "itemGroup.newsimukraft.main": "新：模拟大都市",
-
   "newsimukraft.configuration.title": "NewSimukraft 配置",
   "newsimukraft.configuration.section.newsimukraft.common.toml": "服务端配置",
   "newsimukraft.configuration.section.newsimukraft.client.toml": "客户端配置",
-
   "newsimukraft.config.city.plotSize": "地块边长",
   "newsimukraft.config.city.maxBuildingsPerCity": "城市最大建筑数",
   "newsimukraft.config.economy.startingBalance": "初始资金",
@@ -15,29 +13,24 @@
   "newsimukraft.config.client.showBuildPreview": "显示建造预览",
   "newsimukraft.config.client.enableAmbientSound": "启用建筑环境音",
   "newsimukraft.config.client.uiScale": "城市HUD缩放比例",
-
   "newsimukraft.npc.type.resident": "居民",
   "newsimukraft.npc.type.merchant": "商贩",
   "newsimukraft.npc.type.worker": "工人",
-
   "newsimukraft.building.type.shop_level1": "商铺",
   "newsimukraft.building.type.factory_level1": "工厂",
   "newsimukraft.building.type.house_level1": "住宅",
-
   "newsimukraft.hud.population": "人口",
   "newsimukraft.hud.balance": "余额",
   "newsimukraft.hud.economic_health": "经济健康度",
-
   "newsimukraft.message.city_created": "城市建立成功！",
   "newsimukraft.message.build_success": "建筑建造成功",
   "newsimukraft.message.build_failed_collision": "此处已有建筑，无法放置",
   "newsimukraft.message.build_failed_balance": "资金不足，无法建造",
   "newsimukraft.message.build_failed_limit": "城市建筑已达上限",
   "newsimukraft.message.upgrade_max_level": "已达最高等级",
-
   "block.newsimukraft.build_box": "New-Sim-U 建筑盒",
   "block.newsimukraft.residential_control_box": "New-Sim-U 控制盒",
-
+  "block.newsimukraft.city_core": "New-Sim-U 城市核心",
   "gui.build_box.title": "建筑盒控制界面",
   "gui.build_box.instruction": "请选择需要操作的项目",
   "gui.build_box.hire_builder": "雇佣建筑师",
@@ -46,16 +39,13 @@
   "gui.build_box.hire_planner": "雇佣规划师",
   "gui.build_box.plan_area": "规划区域",
   "gui.build_box.employee_info": "员工信息",
-
   "gui.select_building.title": "选择建筑",
   "gui.select_building.instruction": "选择分类后查看可建造建筑",
-
   "gui.category.residential": "住宅",
   "gui.category.commercial": "商业",
   "gui.category.industrial": "工业",
   "gui.category.public": "公共",
   "gui.category.other": "其他",
-
   "gui.button.back": "返回",
   "gui.button.done": "完成"
 }

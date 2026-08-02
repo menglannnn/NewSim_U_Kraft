@@ -1,8 +1,10 @@
 package com.nsukstudio.newsimukraft.registry;
 
+import com.nsukstudio.newsimukraft.entity.FloatingBuildBoxEntity;
 import com.nsukstudio.newsimukraft.network.NetworkRegistry;
 import com.nsukstudio.newsimukraft.sound.ModSoundEvents;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 
 /**
  * NeoForge 内置类型注册统筹 —— 统一管理方块/物品/实体/音效的 DeferredRegister
@@ -35,7 +37,17 @@ public final class ModRegistrations {
         // 创造物品栏注册
         ModCreativeTabs.register(modEventBus);
 
+        // 实体类型注册
+        ModEntities.register(modEventBus);
+
+        // 实体属性注册
+        modEventBus.addListener(ModRegistrations::onEntityAttributeCreation);
+
         // 网络数据包注册
         modEventBus.addListener(NetworkRegistry::onRegisterPayloads);
+    }
+
+    private static void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
+        event.put(ModEntities.FLOATING_BUILD_BOX.get(), FloatingBuildBoxEntity.createAttributes().build());
     }
 }

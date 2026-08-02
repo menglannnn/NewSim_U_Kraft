@@ -1,6 +1,6 @@
 {
-  "itemGroup.newsimukraft": "新模拟都市",
-  "itemGroup.newsimukraft.main": "新模拟都市",
+  "itemGroup.newsimukraft": "新：模拟大都市",
+  "itemGroup.newsimukraft.main": "新：模拟大都市",
 
   "newsimukraft.configuration.title": "NewSimukraft 配置",
   "newsimukraft.configuration.section.newsimukraft.common.toml": "服务端配置",
@@ -35,7 +35,7 @@
   "newsimukraft.message.build_failed_limit": "城市建筑已达上限",
   "newsimukraft.message.upgrade_max_level": "已达最高等级",
 
-  "block.newsimukraft.build_box": "Sim-U 建筑盒",
+  "block.newsimukraft.build_box": "NSUK-建筑盒",
 
   "gui.build_box.title": "建筑盒控制界面",
   "gui.build_box.instruction": "请选择需要操作的项目",

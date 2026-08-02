@@ -4,6 +4,7 @@ import com.nsukstudio.newsimukraft.NewSimukraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
+import net.minecraft.ChatFormatting;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -23,7 +24,7 @@ public final class ModCreativeTabs {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN_TAB =
             CREATIVE_TABS.<CreativeModeTab>register("main", () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.newsimukraft.main"))
+                    .title(Component.translatable("itemGroup.newsimukraft.main").withStyle(ChatFormatting.WHITE))
                     .icon(() -> new ItemStack(ModItems.BUILD_BOX.get()))
                     .backgroundTexture(Identifier.fromNamespaceAndPath(
                             NewSimukraft.MODID, "textures/gui/tab_gui.png"))

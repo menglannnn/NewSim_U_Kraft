@@ -373,7 +373,7 @@ public class DatabaseManager implements IDatabaseManager {
     }
 
     @Override
-    @SuppressWarnings("null") // File::lastModified 的 @Nonnull 类型安全警告，备份文件数组元素确认非空
+    @SuppressWarnings("Null") // File::lastModified 的 @Nonnull 类型安全警告，备份文件数组元素确认非空
     public boolean restore(String backupTag) {
         rwLock.writeLock().lock();
         try {
@@ -412,7 +412,7 @@ public class DatabaseManager implements IDatabaseManager {
 
     // ===================== 内部工具 =====================
 
-    @SuppressWarnings("null") // File::lastModified 的 @Nonnull 类型安全警告，File 数组元素确认非空
+    @SuppressWarnings("Null") // File::lastModified 的 @Nonnull 类型安全警告，File 数组元素确认非空
     private void pruneOldBackups(int maxKeep) {
         File[] files = backupDir.toFile().listFiles(f -> f.getName().endsWith(".db"));
         if (files == null || files.length <= maxKeep) return;

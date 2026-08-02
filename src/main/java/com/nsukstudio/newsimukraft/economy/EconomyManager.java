@@ -79,7 +79,7 @@ public class EconomyManager implements IEconomyManager {
     }
 
     @Override
-    @SuppressWarnings("null") // 方法引用 onResourceInsufficient 的 Null 类型安全警告，确认实例非空
+    @SuppressWarnings("Null") // 方法引用 onResourceInsufficient 的 Null 类型安全警告，确认实例非空
     public void processDailyTax(UUID cityId) {
         FiscalLedger ledger = ledgers.get(cityId);
         if (ledger == null) return;

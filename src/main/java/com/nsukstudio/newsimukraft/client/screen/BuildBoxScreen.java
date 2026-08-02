@@ -21,7 +21,7 @@ public class BuildBoxScreen extends Screen {
     private static final int BTN_GAP = 2;
     private static final int MAX_BTN_W = 120;
 
-    @SuppressWarnings("unused")
+    @SuppressWarnings("Null")
     private final BlockPos buildBoxPos;
 
     public BuildBoxScreen(BlockPos buildBoxPos) {

@@ -18,7 +18,7 @@ public final class NetworkRegistry {
 
     private NetworkRegistry() {}
 
-    @SuppressWarnings("null") // 方法引用 ::handle 的 @Nonnull 类型安全警告，确认为空安全
+    @SuppressWarnings("Null") // 方法引用 ::handle 的 @Nonnull 类型安全警告，确认为空安全
     public static void onRegisterPayloads(RegisterPayloadHandlersEvent event) {
         PayloadRegistrar registrar = event.registrar(NewSimukraft.MODID);
 

@@ -2,6 +2,7 @@ package com.nsukstudio.newsimukraft.registry;
 
 import com.nsukstudio.newsimukraft.NewSimukraft;
 import com.nsukstudio.newsimukraft.block.BuildBoxBlock;
+import com.nsukstudio.newsimukraft.block.ResidentialControlBoxBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -23,6 +24,15 @@ public final class ModBlocks {
     /** 建筑系统 - Sim-U 建筑盒放置破坏播放音效 */
     public static final DeferredBlock<BuildBoxBlock> BUILD_BOX =
             BLOCKS.registerBlock("build_box", BuildBoxBlock::new,
+                    () -> BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.WOOD)
+                            .strength(2.0f, 3.0f)
+                            .sound(SoundType.WOOD)
+                            .requiresCorrectToolForDrops());
+
+    /** 建筑系统 - New-Sim-U 控制盒，统一管理建筑分类（商业/工业/住宅/公共/其他） */
+    public static final DeferredBlock<ResidentialControlBoxBlock> RESIDENTIAL_CONTROL_BOX =
+            BLOCKS.registerBlock("residential_control_box", ResidentialControlBoxBlock::new,
                     () -> BlockBehaviour.Properties.of()
                             .mapColor(MapColor.WOOD)
                             .strength(2.0f, 3.0f)

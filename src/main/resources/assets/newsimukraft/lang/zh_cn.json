@@ -36,6 +36,7 @@
   "newsimukraft.message.upgrade_max_level": "已达最高等级",
 
   "block.newsimukraft.build_box": "New-Sim-U 建筑盒",
+  "block.newsimukraft.residential_control_box": "New-Sim-U 控制盒",
 
   "gui.build_box.title": "建筑盒控制界面",
   "gui.build_box.instruction": "请选择需要操作的项目",

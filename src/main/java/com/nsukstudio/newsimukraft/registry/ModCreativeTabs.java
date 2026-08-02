@@ -31,6 +31,7 @@ public final class ModCreativeTabs {
                     .displayItems((params, output) -> {
                         // 建筑系统
                         output.accept(ModItems.BUILD_BOX.get());
+                        output.accept(ModItems.RESIDENTIAL_CONTROL_BOX.get());
                     })
                     .build());
 

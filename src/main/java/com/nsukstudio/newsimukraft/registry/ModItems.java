@@ -21,6 +21,10 @@ public final class ModItems {
     public static final DeferredItem<BlockItem> BUILD_BOX =
             ITEMS.registerSimpleBlockItem("build_box", ModBlocks.BUILD_BOX);
 
+    /** 控制盒物品（对应 RESIDENTIAL_CONTROL_BOX 方块的 BlockItem） */
+    public static final DeferredItem<BlockItem> RESIDENTIAL_CONTROL_BOX =
+            ITEMS.registerSimpleBlockItem("residential_control_box", ModBlocks.RESIDENTIAL_CONTROL_BOX);
+
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }

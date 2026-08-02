@@ -32,8 +32,13 @@ public final class ModCreativeTabs {
                         // 建筑系统
                         output.accept(ModItems.BUILD_BOX.get());
                         output.accept(ModItems.RESIDENTIAL_CONTROL_BOX.get());
+                        output.accept(ModItems.BLUE_LIGHT_BLOCK.get());
                         // 城市核心系统
                         output.accept(ModItems.CITY_CORE.get());
+                        // 经济系统
+                        output.accept(ModItems.BANK_CONTROL_BOX.get());
+                        // 食物系统
+                        output.accept(ModItems.CHEESE_BLOCK.get());
                     })
                     .build());
 

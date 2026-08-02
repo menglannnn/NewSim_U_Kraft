@@ -47,5 +47,8 @@
   "gui.category.public": "Public",
   "gui.category.other": "Altele",
   "gui.button.back": "Înapoi",
-  "gui.button.done": "Gata"
+  "gui.button.done": "Gata",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank Control Cabinet",
+  "block.newsimukraft.blue_light_block": "Sim-U Blue Neon Light",
+  "block.newsimukraft.cheese_block": "Sim-U Cheese Block"
 }

@@ -47,5 +47,8 @@
   "gui.category.public": "Общественные",
   "gui.category.other": "Другое",
   "gui.button.back": "Назад",
-  "gui.button.done": "Готово"
+  "gui.button.done": "Готово",
+  "block.newsimukraft.bank_control_box": "Банковский шкаф управления New-Sim-U",
+  "block.newsimukraft.blue_light_block": "Синяя неоновая лампа Sim-U",
+  "block.newsimukraft.cheese_block": "Сырный блок Sim-U"
 }

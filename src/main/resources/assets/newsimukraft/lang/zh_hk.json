@@ -47,5 +47,8 @@
   "gui.category.public": "公共",
   "gui.category.other": "其他",
   "gui.button.back": "返回",
-  "gui.button.done": "完成"
+  "gui.button.done": "完成",
+  "block.newsimukraft.bank_control_box": "New-Sim-U 銀行控制櫃",
+  "block.newsimukraft.blue_light_block": "Sim-U 藍色霓虹燈",
+  "block.newsimukraft.cheese_block": "Sim-U 芝士塊"
 }

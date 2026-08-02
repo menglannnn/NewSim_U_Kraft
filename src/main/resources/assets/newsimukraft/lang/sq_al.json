@@ -47,5 +47,8 @@
   "gui.category.public": "Publike",
   "gui.category.other": "Të tjera",
   "gui.button.back": "Mbrapa",
-  "gui.button.done": "U krye"
+  "gui.button.done": "U krye",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank Control Cabinet",
+  "block.newsimukraft.blue_light_block": "Sim-U Blue Neon Light",
+  "block.newsimukraft.cheese_block": "Sim-U Cheese Block"
 }

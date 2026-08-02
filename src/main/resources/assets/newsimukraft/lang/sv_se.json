@@ -47,5 +47,8 @@
   "gui.category.public": "Offentligt",
   "gui.category.other": "Annat",
   "gui.button.back": "Tillbaka",
-  "gui.button.done": "Klar"
+  "gui.button.done": "Klar",
+  "block.newsimukraft.bank_control_box": "New-Sim-U bankkontrollskåp",
+  "block.newsimukraft.blue_light_block": "Sim-U blått neonljus",
+  "block.newsimukraft.cheese_block": "Sim-U ostblock"
 }

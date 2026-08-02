@@ -47,5 +47,8 @@
   "gui.category.public": "საჯარო",
   "gui.category.other": "სხვა",
   "gui.button.back": "უკან",
-  "gui.button.done": "დასრულდა"
+  "gui.button.done": "დასრულდა",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank Control Cabinet",
+  "block.newsimukraft.blue_light_block": "Sim-U Blue Neon Light",
+  "block.newsimukraft.cheese_block": "Sim-U Cheese Block"
 }

@@ -1,9 +1,11 @@
 package com.nsukstudio.newsimukraft.registry;
 
 import com.nsukstudio.newsimukraft.NewSimukraft;
+import com.nsukstudio.newsimukraft.block.BankControlBoxBlock;
 import com.nsukstudio.newsimukraft.block.BuildBoxBlock;
 import com.nsukstudio.newsimukraft.block.CityCoreBlock;
 import com.nsukstudio.newsimukraft.block.ResidentialControlBoxBlock;
+import net.minecraft.world.level.block.SlimeBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -48,6 +50,37 @@ public final class ModBlocks {
                             .strength(2.0f, 3.0f)
                             .sound(SoundType.WOOD)
                             .requiresCorrectToolForDrops());
+
+    /** 经济系统 - New-Sim-U 银行控制柜，管理城市经济与配给 */
+    public static final DeferredBlock<BankControlBoxBlock> BANK_CONTROL_BOX =
+            BLOCKS.registerBlock("bank_control_box", BankControlBoxBlock::new,
+                    () -> BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.METAL)
+                            .strength(5.0f, 6.0f)
+                            .sound(SoundType.METAL)
+                            .requiresCorrectToolForDrops());
+
+    /** 建筑系统 - Sim-U 蓝色霓虹灯，玻璃质感灯块装饰 */
+    public static final DeferredBlock<net.minecraft.world.level.block.Block> BLUE_LIGHT_BLOCK =
+            BLOCKS.registerSimpleBlock("blue_light_block",
+                    () -> BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_BLUE)
+                            .strength(0.3f)
+                            .sound(SoundType.GLASS)
+                            .lightLevel(state -> 15)
+                            .noOcclusion()
+                            .isValidSpawn((state, level, pos, type) -> false)
+                            .isRedstoneConductor((state, level, pos) -> false)
+                            .isSuffocating((state, level, pos) -> false)
+                            .isViewBlocking((state, level, pos) -> false));
+
+    /** 食物系统 - Sim-U 奶酪块，工业建筑产出的粘性食材方块 */
+    public static final DeferredBlock<SlimeBlock> CHEESE_BLOCK =
+            BLOCKS.registerBlock("cheese_block", SlimeBlock::new,
+                    () -> BlockBehaviour.Properties.of()
+                            .mapColor(MapColor.COLOR_YELLOW)
+                            .strength(0.5f)
+                            .sound(SoundType.GRAVEL));
 
     public static void register(IEventBus bus) {
         BLOCKS.register(bus);

@@ -47,5 +47,8 @@
   "gui.category.public": "Javno",
   "gui.category.other": "Drugo",
   "gui.button.back": "Nazaj",
-  "gui.button.done": "Končano"
+  "gui.button.done": "Končano",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank Control Cabinet",
+  "block.newsimukraft.blue_light_block": "Sim-U Blue Neon Light",
+  "block.newsimukraft.cheese_block": "Sim-U Cheese Block"
 }

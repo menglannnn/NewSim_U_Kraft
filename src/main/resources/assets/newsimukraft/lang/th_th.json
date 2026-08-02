@@ -47,5 +47,8 @@
   "gui.category.public": "สาธารณะ",
   "gui.category.other": "อื่น ๆ",
   "gui.button.back": "กลับ",
-  "gui.button.done": "เสร็จสิ้น"
+  "gui.button.done": "เสร็จสิ้น",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank Control Cabinet",
+  "block.newsimukraft.blue_light_block": "Sim-U Blue Neon Light",
+  "block.newsimukraft.cheese_block": "Sim-U Cheese Block"
 }

@@ -47,5 +47,8 @@
   "gui.category.public": "公共",
   "gui.category.other": "その他",
   "gui.button.back": "戻る",
-  "gui.button.done": "完了"
+  "gui.button.done": "完了",
+  "block.newsimukraft.bank_control_box": "New-Sim-U 銀行制御キャビネット",
+  "block.newsimukraft.blue_light_block": "Sim-U 青色ネオンライト",
+  "block.newsimukraft.cheese_block": "Sim-U チーズブロック"
 }

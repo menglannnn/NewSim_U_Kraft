@@ -47,5 +47,8 @@
   "gui.category.public": "ציבורי",
   "gui.category.other": "אחר",
   "gui.button.back": "חזור",
-  "gui.button.done": "סיום"
+  "gui.button.done": "סיום",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank Control Cabinet",
+  "block.newsimukraft.blue_light_block": "Sim-U Blue Neon Light",
+  "block.newsimukraft.cheese_block": "Sim-U Cheese Block"
 }

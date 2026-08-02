@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "newsimukraft:block/bank_control_box",
+    "side": "newsimukraft:block/bank_control_box_iron",
+    "top": "newsimukraft:block/bank_control_box_iron"
+  }
+}

@@ -47,5 +47,8 @@
   "gui.category.public": "Veřejné",
   "gui.category.other": "Ostatní",
   "gui.button.back": "Zpět",
-  "gui.button.done": "Hotovo"
+  "gui.button.done": "Hotovo",
+  "block.newsimukraft.bank_control_box": "Bankovní ovládací skříň New-Sim-U",
+  "block.newsimukraft.blue_light_block": "Modré neonové světlo Sim-U",
+  "block.newsimukraft.cheese_block": "Sýrový blok Sim-U"
 }

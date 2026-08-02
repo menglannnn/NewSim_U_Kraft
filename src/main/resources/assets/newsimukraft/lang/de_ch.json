@@ -47,5 +47,8 @@
   "gui.category.public": "Öffentlich",
   "gui.category.other": "Sonstige",
   "gui.button.back": "Zurück",
-  "gui.button.done": "Fertig"
+  "gui.button.done": "Fertig",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank-Steuerschrank",
+  "block.newsimukraft.blue_light_block": "Sim-U Blaues Neonlicht",
+  "block.newsimukraft.cheese_block": "Sim-U Käseblock"
 }

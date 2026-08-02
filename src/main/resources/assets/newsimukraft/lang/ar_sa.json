@@ -47,5 +47,8 @@
   "gui.category.public": "عام",
   "gui.category.other": "أخرى",
   "gui.button.back": "رجوع",
-  "gui.button.done": "تم"
+  "gui.button.done": "تم",
+  "block.newsimukraft.bank_control_box": "خزانة تحكم البنك New-Sim-U",
+  "block.newsimukraft.blue_light_block": "ضوء نيون أزرق Sim-U",
+  "block.newsimukraft.cheese_block": "كتلة جبن Sim-U"
 }

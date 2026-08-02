@@ -47,5 +47,8 @@
   "gui.category.public": "Publiczne",
   "gui.category.other": "Inne",
   "gui.button.back": "Wstecz",
-  "gui.button.done": "Gotowe"
+  "gui.button.done": "Gotowe",
+  "block.newsimukraft.bank_control_box": "Szafa sterowania bankiem New-Sim-U",
+  "block.newsimukraft.blue_light_block": "Niebieskie światło neonowe Sim-U",
+  "block.newsimukraft.cheese_block": "Blok sera Sim-U"
 }

@@ -47,5 +47,8 @@
   "gui.category.public": "Openbaar",
   "gui.category.other": "Overig",
   "gui.button.back": "Terug",
-  "gui.button.done": "Gereed"
+  "gui.button.done": "Gereed",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Bank Control Cabinet",
+  "block.newsimukraft.blue_light_block": "Sim-U Blue Neon Light",
+  "block.newsimukraft.cheese_block": "Sim-U Cheese Block"
 }

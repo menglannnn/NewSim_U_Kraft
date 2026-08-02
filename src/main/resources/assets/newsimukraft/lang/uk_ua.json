@@ -47,5 +47,8 @@
   "gui.category.public": "Громадські",
   "gui.category.other": "Інше",
   "gui.button.back": "Назад",
-  "gui.button.done": "Готово"
+  "gui.button.done": "Готово",
+  "block.newsimukraft.bank_control_box": "Банківська шафа керування New-Sim-U",
+  "block.newsimukraft.blue_light_block": "Синя неонова лампа Sim-U",
+  "block.newsimukraft.cheese_block": "Сирний блок Sim-U"
 }

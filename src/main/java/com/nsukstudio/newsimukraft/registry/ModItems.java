@@ -29,6 +29,18 @@ public final class ModItems {
     public static final DeferredItem<BlockItem> CITY_CORE =
             ITEMS.registerSimpleBlockItem("city_core", ModBlocks.CITY_CORE);
 
+    /** 银行控制柜物品（对应 BANK_CONTROL_BOX 方块的 BlockItem） */
+    public static final DeferredItem<BlockItem> BANK_CONTROL_BOX =
+            ITEMS.registerSimpleBlockItem("bank_control_box", ModBlocks.BANK_CONTROL_BOX);
+
+    /** 蓝色霓虹灯物品（对应 BLUE_LIGHT_BLOCK 方块的 BlockItem） */
+    public static final DeferredItem<BlockItem> BLUE_LIGHT_BLOCK =
+            ITEMS.registerSimpleBlockItem("blue_light_block", ModBlocks.BLUE_LIGHT_BLOCK);
+
+    /** 奶酪块物品（对应 CHEESE_BLOCK 方块的 BlockItem） */
+    public static final DeferredItem<BlockItem> CHEESE_BLOCK =
+            ITEMS.registerSimpleBlockItem("cheese_block", ModBlocks.CHEESE_BLOCK);
+
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }

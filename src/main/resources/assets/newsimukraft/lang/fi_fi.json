@@ -47,5 +47,8 @@
   "gui.category.public": "Julkinen",
   "gui.category.other": "Muu",
   "gui.button.back": "Takaisin",
-  "gui.button.done": "Valmis"
+  "gui.button.done": "Valmis",
+  "block.newsimukraft.bank_control_box": "New-Sim-U pankin ohjauskaappi",
+  "block.newsimukraft.blue_light_block": "Sim-U sininen neonvalo",
+  "block.newsimukraft.cheese_block": "Sim-U juustokuutio"
 }

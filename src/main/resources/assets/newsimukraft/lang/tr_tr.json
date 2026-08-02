@@ -47,5 +47,8 @@
   "gui.category.public": "Kamu",
   "gui.category.other": "Diğer",
   "gui.button.back": "Geri",
-  "gui.button.done": "Tamam"
+  "gui.button.done": "Tamam",
+  "block.newsimukraft.bank_control_box": "New-Sim-U Banka Kontrol Kabini",
+  "block.newsimukraft.blue_light_block": "Sim-U Mavi Neon Işık",
+  "block.newsimukraft.cheese_block": "Sim-U Peynir Bloğu"
 }

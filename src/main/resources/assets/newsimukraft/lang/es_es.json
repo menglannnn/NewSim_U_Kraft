@@ -47,5 +47,8 @@
   "gui.category.public": "Público",
   "gui.category.other": "Otro",
   "gui.button.back": "Volver",
-  "gui.button.done": "Hecho"
+  "gui.button.done": "Hecho",
+  "block.newsimukraft.bank_control_box": "Armario de control bancario New-Sim-U",
+  "block.newsimukraft.blue_light_block": "Luz de neón azul Sim-U",
+  "block.newsimukraft.cheese_block": "Bloque de queso Sim-U"
 }

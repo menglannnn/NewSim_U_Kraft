@@ -47,5 +47,8 @@
   "gui.category.public": "공공",
   "gui.category.other": "기타",
   "gui.button.back": "뒤로",
-  "gui.button.done": "완료"
+  "gui.button.done": "완료",
+  "block.newsimukraft.bank_control_box": "New-Sim-U 은행 제어 캐비닛",
+  "block.newsimukraft.blue_light_block": "Sim-U 파란색 네온등",
+  "block.newsimukraft.cheese_block": "Sim-U 치즈 블록"
 }

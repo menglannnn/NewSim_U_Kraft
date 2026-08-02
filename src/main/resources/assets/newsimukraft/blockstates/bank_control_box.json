@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "newsimukraft:block/bank_control_box" },
+    "facing=east": { "model": "newsimukraft:block/bank_control_box", "y": 90 },
+    "facing=south": { "model": "newsimukraft:block/bank_control_box", "y": 180 },
+    "facing=west": { "model": "newsimukraft:block/bank_control_box", "y": 270 }
+  }
+}
